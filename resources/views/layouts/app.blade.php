@@ -15,6 +15,9 @@
 
     <link rel="canonical" href="{{ url()->current() }}">
 
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+
     <title>@yield('title', 'BTA Systems — AI dla biznesu')</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
