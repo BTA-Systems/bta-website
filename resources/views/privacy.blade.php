@@ -142,13 +142,6 @@
         </div>
     </article>
 
-    {{-- Footer --}}
-    <footer class="border-t border-gray-100 py-12 px-6">
-        <div class="max-w-3xl mx-auto">
-            <p class="text-xs text-gray-400">
-                &copy; {{ date('Y') }} BTA Systems Sp. z o.o.
-            </p>
-        </div>
-    </footer>
+    @include('partials.footer')
 
 @endsection
