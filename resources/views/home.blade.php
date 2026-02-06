@@ -106,7 +106,6 @@
         <div class="max-w-3xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between gap-8">
                 <div>
-                    <img src="{{ asset('assets/BTA_logo.png') }}" alt="BTA Systems" class="h-8 mb-4">
                     <p class="text-sm text-brand-gray-light leading-relaxed">
                         BTA Systems Sp. z o.o.<br>
                         ul. Korzenna 3B/16<br>

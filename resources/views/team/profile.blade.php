@@ -36,7 +36,7 @@
                 @endif
                 <div>
                     <h1 class="text-3xl md:text-4xl font-bold text-brand-gray mb-2">{{ $name }}</h1>
-                    <p class="text-lg text-brand-gray-light mb-4">{{ $role }}, BTA Systems</p>
+                    <p class="text-lg text-brand-gray-light mb-4">{{ $role }}</p>
                     <a href="{{ $linkedin }}" target="_blank" rel="noopener"
                         class="inline-flex items-center gap-2 text-sm text-brand-gray-light hover:text-brand-gray transition-colors">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
