@@ -83,13 +83,11 @@
 
                 {{-- Marcin Wesołowski --}}
                 <div class="border border-gray-100 rounded-lg p-8 hover:border-gray-200 transition-colors">
-                    <div
-                        class="w-20 h-20 rounded-full bg-brand-red flex items-center justify-center text-white text-xl font-semibold mb-6">
-                        MW
-                    </div>
+                    <img src="{{ asset('assets/team/marcin-wesolowski.jpeg') }}" alt="Marcin Wesołowski"
+                        class="w-20 h-20 rounded-full object-cover mb-6">
                     <h3 class="text-xl font-semibold text-brand-gray mb-1">Marcin Wesołowski</h3>
                     <p class="text-sm text-brand-gray-light mb-3">Cofounder</p>
-                    <p class="text-sm text-brand-gray-light mb-6">Architekt rozwiązań, pasjonat AI</p>
+                    <p class="text-sm text-brand-gray-light mb-6">Business Strategy | AI & Agentic Coding</p>
                     <a href="{{ route('team.marcin-wesolowski') }}"
                         class="inline-flex items-center gap-2 text-sm text-brand-red font-medium hover:text-brand-red-dark transition-colors group">
                         Zobacz profil

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', $name . ' — BTA Systems')
-@section('meta_description', $name . ', ' . $role . ' w BTA Systems. ' . $tagline)
+@section('meta_description', $name . ', ' . $role . ' w BTA Systems')
 
 @section('content')
 
@@ -26,14 +26,17 @@
     <section class="px-6 pt-8 pb-16">
         <div class="max-w-3xl mx-auto">
             <div class="flex flex-col sm:flex-row items-start gap-8">
-                <div
-                    class="w-28 h-28 rounded-full {{ $slug === 'marcin-chmielinski' ? 'bg-brand-gray' : 'bg-brand-red' }} flex items-center justify-center text-white text-3xl font-semibold shrink-0">
-                    {{ $initials }}
-                </div>
+                @if(isset($photo))
+                    <img src="{{ asset($photo) }}" alt="{{ $name }}" class="w-28 h-28 rounded-full object-cover shrink-0">
+                @else
+                    <div
+                        class="w-28 h-28 rounded-full {{ $slug === 'marcin-chmielinski' ? 'bg-brand-gray' : 'bg-brand-red' }} flex items-center justify-center text-white text-3xl font-semibold shrink-0">
+                        {{ $initials }}
+                    </div>
+                @endif
                 <div>
                     <h1 class="text-3xl md:text-4xl font-bold text-brand-gray mb-2">{{ $name }}</h1>
-                    <p class="text-lg text-brand-gray-light mb-1">{{ $role }}, BTA Systems</p>
-                    <p class="text-brand-gray-light mb-4">{{ $tagline }}</p>
+                    <p class="text-lg text-brand-gray-light mb-4">{{ $role }}, BTA Systems</p>
                     <a href="{{ $linkedin }}" target="_blank" rel="noopener"
                         class="inline-flex items-center gap-2 text-sm text-brand-gray-light hover:text-brand-gray transition-colors">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -51,9 +54,9 @@
     <section class="px-6 pb-16 border-t border-gray-100 pt-16">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-sm font-medium tracking-widest text-brand-gray-light uppercase mb-6">O mnie</h2>
-            <p class="text-lg text-brand-gray-light leading-relaxed">
-                {{ $bio }}
-            </p>
+            <div class="text-lg text-brand-gray-light leading-relaxed">
+                {!! $bio !!}
+            </div>
         </div>
     </section>
 
