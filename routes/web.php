@@ -11,15 +11,19 @@ Route::get('/profile/marcin-chmielinski', function () {
         'name' => 'Marcin Chmieliński',
         'slug' => 'marcin-chmielinski',
         'role' => 'Cofounder',
-        'linkedin' => 'https://linkedin.com/in/',
+        'linkedin' => 'https://www.linkedin.com/in/marcin-chmieli%C5%84ski-2b446167',
         'initials' => 'MC',
-        'bio' => 'Posiada ponad 15-letnie doświadczenie w branży technologicznej, specjalizując się w strategii produktowej i zarządzaniu projektami IT. Przez lata współpracował z firmami z sektora fintech, e-commerce i SaaS, pomagając im budować skalowalne rozwiązania cyfrowe. Wierzy, że najlepsze produkty powstają na styku technologii i głębokiego zrozumienia potrzeb użytkownika. W BTA Systems odpowiada za kierunek rozwoju produktów i relacje z klientami.',
+        'photo' => 'assets/team/marcin-chmielinski.jpg',
+        'bio' => "Mam prawie 20 lat doświadczenia w zarządzaniu sprzedażą i operacjami w sieciach handlowych. Przez ostatnie 9 lat kierowałem regionem ponad 60 salonów marek Vistula, BYTOM i Wólczanka w VRG S.A., odpowiadając za wzrost sprzedaży i rentowności rok do roku.<br><br>
+        Wcześniej budowałem i rozwijałem sieci sprzedaży w Giacomo Conti, PAWO i Lidl, gdzie zarządzałem zespołami liczącymi ponad 100 osób. Specjalizuję się w standaryzacji procesów, szkoleniu kadry kierowniczej i wdrażaniu strategii operacyjnych.<br><br>
+        W BTA Systems odpowiadam za rozwój biznesu i relacje z klientami, wykorzystując doświadczenie w budowaniu efektywnych zespołów i optymalizacji procesów sprzedażowych.",
         'experience' => [
-            ['period' => '2024–obecnie', 'company' => 'BTA Systems', 'position' => 'Cofounder'],
-            ['period' => '2018–2024', 'company' => 'Firma technologiczna', 'position' => 'Product Manager'],
-            ['period' => '2012–2018', 'company' => 'Software house', 'position' => 'Project Manager'],
+            ['period' => '2025–obecnie', 'company' => 'BTA Systems', 'position' => 'Cofounder'],
+            ['period' => '2016–obecnie', 'company' => 'VRG S.A. (Vistula, BYTOM, Wólczanka)', 'position' => 'Menedżer Operacyjny / Regionalny Menedżer Sprzedaży'],
+            ['period' => '2015–2016', 'company' => 'Giacomo Conti', 'position' => 'Manager Sieci Sprzedaży'],
+            ['period' => '2006–2012', 'company' => 'Lidl Polska', 'position' => 'Kierownik Rejonu Sprzedaży'],
         ],
-        'skills' => ['Strategia produktowa', 'Zarządzanie projektami', 'Agile / Scrum', 'Business Development', 'Analiza wymagań', 'UX Strategy'],
+        'skills' => ['Zarządzanie Operacyjne', 'Rozwój Biznesu', 'Zarządzanie Sprzedażą', 'Koordynowanie Projektów', 'Szkolenie Kadry'],
     ]);
 })->name('team.marcin-chmielinski');
 

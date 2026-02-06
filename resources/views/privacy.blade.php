@@ -30,9 +30,8 @@
                 <section>
                     <h2 class="text-lg font-semibold text-brand-gray mb-3">1. Administrator danych</h2>
                     <p>
-                        Administratorem danych osobowych jest BTA Systems Sp. z o.o. z siedzibą w Warszawie,
-                        ul. Przykładowa 10, 00-001 Warszawa, wpisana do rejestru przedsiębiorców KRS pod numerem
-                        0000000000, NIP: 0000000000, REGON: 000000000.
+                        Administratorem danych osobowych jest BTA Systems Sp. z o.o. z siedzibą w Gdyni,
+                        ul. Korzenna 3B/16, 81-587 Gdynia, NIP: 5862402265.
                     </p>
                     <p class="mt-2">
                         Kontakt z administratorem: <a href="mailto:kontakt@bta.systems" class="underline hover:text-brand-gray transition-colors">kontakt@bta.systems</a>

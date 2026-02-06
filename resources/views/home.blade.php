@@ -63,13 +63,11 @@
 
                 {{-- Marcin Chmieliński --}}
                 <div class="border border-gray-100 rounded-lg p-8 hover:border-gray-200 transition-colors">
-                    <div
-                        class="w-20 h-20 rounded-full bg-brand-gray flex items-center justify-center text-white text-xl font-semibold mb-6">
-                        MC
-                    </div>
+                    <img src="{{ asset('assets/team/marcin-chmielinski.jpg') }}" alt="Marcin Chmieliński"
+                        class="w-20 h-20 rounded-full object-cover mb-6">
                     <h3 class="text-xl font-semibold text-brand-gray mb-1">Marcin Chmieliński</h3>
                     <p class="text-sm text-brand-gray-light mb-3">Cofounder</p>
-                    <p class="text-sm text-brand-gray-light mb-6">15+ lat w IT, strateg produktowy</p>
+                    <p class="text-sm text-brand-gray-light mb-6">Rozwój Biznesu | Zarządzanie Sprzedażą</p>
                     <a href="{{ route('team.marcin-chmielinski') }}"
                         class="inline-flex items-center gap-2 text-sm text-brand-red font-medium hover:text-brand-red-dark transition-colors group">
                         Zobacz profil
@@ -111,8 +109,9 @@
                     <img src="{{ asset('assets/BTA_logo.png') }}" alt="BTA Systems" class="h-8 mb-4">
                     <p class="text-sm text-brand-gray-light leading-relaxed">
                         BTA Systems Sp. z o.o.<br>
-                        ul. Przykładowa 10<br>
-                        00-001 Warszawa
+                        ul. Korzenna 3B/16<br>
+                        81-587 Gdynia<br>
+                        NIP: 5862402265
                     </p>
                 </div>
 
@@ -120,16 +119,6 @@
                     <p>
                         <a href="mailto:kontakt@bta.systems"
                             class="hover:text-brand-gray transition-colors">kontakt@bta.systems</a>
-                    </p>
-                    <p>
-                        <a href="https://linkedin.com/company/" target="_blank" rel="noopener"
-                            class="hover:text-brand-gray transition-colors inline-flex items-center gap-1.5">
-                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                            </svg>
-                            LinkedIn
-                        </a>
                     </p>
                     <p>
                         <a href="{{ route('privacy') }}" class="hover:text-brand-gray transition-colors">Polityka
